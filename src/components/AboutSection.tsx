@@ -6,9 +6,9 @@ const AboutSection = () => {
     <section id="about" className="section-padding bg-background">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="section-title">About the Media Unit</h2>
+          <h2 className="section-title">About Sanjanani Media Unit</h2>
           <p className="section-subtitle">
-            Empowering students to tell their stories through journalism, broadcasting, and digital media.
+            Part of Gothami Kanishta Vidyalaya (Established 1932). Empowering students to tell their stories through journalism, broadcasting, and digital media.
           </p>
         </div>
 
@@ -44,8 +44,8 @@ const AboutSection = () => {
         >
           <h3 className="font-heading text-2xl font-bold text-primary mb-4">Message from the Principal</h3>
           <p className="text-muted-foreground leading-relaxed italic text-lg">
-            "At Gothami School, we believe every student has a unique voice. Our Media Unit provides the platform, tools, 
-            and guidance to amplify those voices. Through radio broadcasts, video production, photography, and journalism, 
+            "At Gothami Kanishta Vidyalaya, we believe every student has a unique voice. Our Sanjanani Media Unit provides the platform, tools,
+            and guidance to amplify those voices. Through radio broadcasts, video production, photography, and journalism,
             our students learn not just to consume media — but to create it responsibly and creatively."
           </p>
           <div className="mt-6 flex items-center gap-3">
@@ -54,7 +54,7 @@ const AboutSection = () => {
             </div>
             <div>
               <p className="font-semibold text-foreground">The Principal</p>
-              <p className="text-sm text-muted-foreground">Gothami School</p>
+              <p className="text-sm text-muted-foreground">Gothami Kanishta Vidyalaya</p>
             </div>
           </div>
         </motion.div>

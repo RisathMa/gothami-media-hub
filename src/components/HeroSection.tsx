@@ -38,6 +38,7 @@ const HeroSection = () => {
             alt={slides[current].title}
             className="w-full h-full object-cover"
           />
+          {/* The provided snippet for <p> was syntactically incorrect here. Assuming it was meant for the content overlay. */}
           <div className="absolute inset-0 bg-gradient-to-b from-maroon-dark/70 via-maroon-dark/50 to-maroon-dark/80" />
         </motion.div>
       </AnimatePresence>
@@ -51,13 +52,17 @@ const HeroSection = () => {
           transition={{ delay: 0.3, duration: 0.6 }}
         >
           <span className="inline-block px-4 py-1.5 rounded-full bg-accent/20 text-accent-foreground text-sm font-medium mb-6 border border-accent/30">
-            🎬 Gothami School Media Unit
+            🎬 Sanjanani Media Unit — GKV
           </span>
           <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-4 max-w-4xl leading-tight">
             {slides[current].title}
           </h1>
           <p className="text-primary-foreground/80 text-lg md:text-xl max-w-2xl mx-auto mb-8">
             {slides[current].subtitle}
+          </p>
+          {/* Added the new description paragraph here, assuming it was intended for the main content area */}
+          <p className="section-subtitle text-primary-foreground/70 text-base md:text-lg max-w-2xl mx-auto mb-8">
+            Part of Gothami Kanishta Vidyalaya (Established 1932). Empowering students to tell their stories through journalism, broadcasting, and digital media.
           </p>
           <a
             href="#news"

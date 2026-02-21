@@ -12,12 +12,12 @@ const Footer = () => {
                 <span className="font-heading font-bold text-lg">G</span>
               </div>
               <div>
-                <span className="font-heading font-bold text-lg block leading-tight">Gothami School</span>
-                <span className="text-xs text-primary-foreground/60 block">Media Unit</span>
+                <span className="font-heading font-bold text-lg block leading-tight">Gothami Kanishta Vidyalaya</span>
+                <span className="text-xs text-primary-foreground/60 block">Sanjanani Media Unit</span>
               </div>
             </div>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
-              Empowering the next generation of storytellers through digital media, journalism, and creative expression.
+              Educating generations since 1932. Empowering the next generation of storytellers through digital media, journalism, and creative expression.
             </p>
           </div>
 
@@ -44,15 +44,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-sm text-primary-foreground/70">
                 <MapPin size={16} className="flex-shrink-0" />
-                <span>123 School Road, Colombo, Sri Lanka</span>
+                <span>51 Vishaka Road, Gampaha, Sri Lanka</span>
               </li>
               <li className="flex items-center gap-2 text-sm text-primary-foreground/70">
                 <Phone size={16} className="flex-shrink-0" />
-                <span>+94 11 234 5678</span>
+                <span>+94 332 222 207</span>
               </li>
               <li className="flex items-center gap-2 text-sm text-primary-foreground/70">
                 <Mail size={16} className="flex-shrink-0" />
-                <span>media@gothamischool.lk</span>
+                <span>info@gothamividyalaya.lk</span>
               </li>
             </ul>
           </div>
